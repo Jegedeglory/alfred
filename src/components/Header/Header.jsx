@@ -15,15 +15,15 @@ const Header = () => (
         <div className='divider'>
           <h2 className='main-phrase'>Starter</h2>
           <h2 className='money-phrase'>$9 + $0.15</h2>
-          <p>per AI generation</p>
+          <p className='AI-phrase'>per AI generation</p>
           <button className='butn'>Sign up & enable AI</button>
           <div className='paragraph'>
             <p>What's included</p>
-          <p className='AI-phrase'>AI text generation for answers</p>
-          <p className='AI-phrase'>AI audio generation for answers</p>
-          <p className='AI-phrase'>1000 contacts</p>
-          <p className='AI-phrase'>25 Notes</p>
-          <p className='AI-phrase'>50 Questions</p>
+          <p>AI text generation for answers</p>
+          <p>AI audio generation for answers</p>
+          <p>1000 contacts</p>
+          <p>25 Notes</p>
+          <p>50 Questions</p>
           </div>
         </div>
         <div className='divider'>
@@ -32,12 +32,12 @@ const Header = () => (
           <p className='AI-phrase'>per AI generation</p>
           <button className='butn second-btn'>Sign up & enable AI</button>
           <div className='paragraph'>
-            <p>What's included</p>
-          <p className='AI-phrase'>AI text generation for answers</p>
-          <p className='AI-phrase'>AI audio generation for answers</p>
-          <p className='AI-phrase'>1000 contacts</p>
-          <p className='AI-phrase'>25 Notes</p>
-          <p className='AI-phrase'>50 Questions</p>
+            <p className='included'>What's included</p>
+          <p>AI text generation for answers</p>
+          <p>AI audio generation for answers</p>
+          <p>1000 contacts</p>
+          <p>25 Notes</p>
+          <p>50 Questions</p>
           </div>
         </div>
         </div>

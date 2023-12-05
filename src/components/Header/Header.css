@@ -25,16 +25,16 @@
     transform: translate(-50, -50%);
     height: 50%;
     width: 50%;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .divider {
-    display: grid;
+    display: block;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
-    height: 100%;
-    width: 50%;
+    height: 80%;
+    width: 80%;
     padding: 10px 0 0 10px;
     border-radius: 10px;
     margin: 10px;
@@ -43,23 +43,54 @@
     align-items: center;
     justify-content: center;
     background: rgb(247, 247, 247);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .main-phrase {
+    display: inline-block;
+    display: grid;
 }
 
 .money-phrase {
+    width: 75%;
+    display: inline;
+}
+.AI-phrase-side {
 
 }
 
 .butn {
-
+    background-color: #040404;
+    color: #fff;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    margin: 6px auto;
 }
 
 .second-btn {
-
+ background-color: rgb(255, 132, 0);
 }
 
 .AI-phrase {
+    float: right;
+    padding: 0;
+    margin: 0;
+    display: inline;
+    left: 20px;
+}
+
+p {
+    display: flex;
+    padding: 2px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.included {
 
 }
