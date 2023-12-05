@@ -1,0 +1,62 @@
+.navbar {
+    padding: 3rem 0;
+    margin: 0;
+    text-align: center;
+    margin-right: 1rem;
+}
+
+.navbar__brand {
+    width: 80px;
+    color: #fff;
+
+}
+
+.logo {
+    margin: 10px;
+    top: 0;
+    cursor: pointer;
+    position:absolute;
+    background-color: rgb(255, 132, 0);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+
+.brand__and__toggler {
+    padding: 1rem;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+ul {
+    position: absolute;
+    top: 0;
+    list-style-type: none;
+    padding: 0;
+    margin-right: 0;
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+}
+
+
+li {
+    margin-left: auto;
+    margin-right: 10px;
+    display: inline;
+    width: 50px;
+    text-align: center;
+    float: right;
+}
