@@ -56,9 +56,7 @@
     width: 75%;
     display: inline;
 }
-.AI-phrase-side {
 
-}
 
 .butn {
     background-color: #040404;
@@ -69,7 +67,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    border-radius: 12px;
+    border-radius: 20px;
     margin: 6px auto;
 }
 
@@ -78,19 +76,20 @@
 }
 
 .AI-phrase {
-    float: right;
+    float:inline-end;
     padding: 0;
     margin: 0;
     display: inline;
-    left: 20px;
+    word-wrap: break-word;
 }
 
 p {
     display: flex;
-    padding: 2px;
+    padding: 5px;
     grid-template-columns: repeat(3, 1fr);
 }
 
 .included {
-
+    font-weight: 800;
+    font-size: 20px;
 }

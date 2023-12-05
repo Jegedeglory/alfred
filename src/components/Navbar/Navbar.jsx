@@ -14,9 +14,6 @@ const Navbar = () => {
         <div className='navbar__align'>
           <ul className='navbar__nav'>
             <li className='nav__item'>
-              <a href='#home' className='nav__link  fw__4 text__light nav__active'>Home</a>
-            </li>
-            <li className='nav__item'>
               <a href='#home' className='nav__link  fw__4 text__light nav__active'>Pricing</a>
             </li>
             <li className='nav__item'>
@@ -26,7 +23,7 @@ const Navbar = () => {
               <a href='#home' className='nav__link  fw__4 text__light nav__active'>FAQ</a>
             </li>
             <li className='nav__item'>
-              <a href='#home' className='nav__link fw__4 text__light nav__active'>Log In</a>
+              <a href='#home' className='nav__link fw__4 text__light nav__active'>  Sign In</a>
             </li>
             <li className='nav__item'>
               <a href='#home' className='nav__link  fw__4 text__light nav__active'>Book Calls</a>

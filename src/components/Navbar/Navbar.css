@@ -1,14 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
 .navbar {
     padding: 3rem 0;
     margin: 0;
     text-align: center;
+    justify-content: center;
     margin-right: 1rem;
 }
 
 .navbar__brand {
-    width: 80px;
+    width: 80%;
     color: #fff;
-
+    
 }
 
 .logo {
@@ -16,17 +23,18 @@
     top: 0;
     cursor: pointer;
     position:absolute;
+    line-height: 20px;
+    color: #fff;
     background-color: rgb(255, 132, 0);
-    padding: 5px;
+    padding: 0 20px;
     border-radius: 5px;
 }
 
 a {
-    text-decoration: none;
     font-weight: 300;
     display: block;
     font-size: 16px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 
@@ -42,21 +50,25 @@ a {
 
 ul {
     position: absolute;
+    margin: 10px;
     top: 0;
+    margin-right: 20px;
     list-style-type: none;
-    padding: 0;
-    margin-right: 0;
-    list-style-type: none;
-    display: flex;
     width: 100%;
 }
 
 
 li {
-    margin-left: auto;
-    margin-right: 10px;
+    /* margin-left: auto; */
+    margin-right: 20px;
     display: inline;
-    width: 50px;
     text-align: center;
     float: right;
+    line-height: 20px;
+}
+
+ul li {
+    display: inline-block;
+    line-height: 20px;
+    margin: 0 5px;
 }

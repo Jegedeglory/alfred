@@ -18,7 +18,7 @@ const Header = () => (
           <p className='AI-phrase'>per AI generation</p>
           <button className='butn'>Sign up & enable AI</button>
           <div className='paragraph'>
-            <p>What's included</p>
+            <p className='included'>What's included:</p>
           <p>AI text generation for answers</p>
           <p>AI audio generation for answers</p>
           <p>1000 contacts</p>
@@ -32,7 +32,7 @@ const Header = () => (
           <p className='AI-phrase'>per AI generation</p>
           <button className='butn second-btn'>Sign up & enable AI</button>
           <div className='paragraph'>
-            <p className='included'>What's included</p>
+            <p className='included'>What's included:</p>
           <p>AI text generation for answers</p>
           <p>AI audio generation for answers</p>
           <p>1000 contacts</p>
