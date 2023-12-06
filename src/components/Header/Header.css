@@ -99,20 +99,25 @@ p {
 
 .trapezoid {
     color: #fff;
-    background: #040404;
+
+    background: #c80e0e;
     border-bottom: 50px solid transparent;
-    border-top: 100px solid ;
-    border-left: 50px solid ;
+    border-left: 50px solid;
     border-right: 50px solid;
     width: 100px;
     height: 0px;
-    display: flex;
+    /* display: flex; */
     /* line-height: 30px; */
     text-align: center;
-    transform: rotate(-36deg);
+    transform: rotate(-42deg);
     line-height: 20px;
+    position: absolute;
+    top: 60px;
+    right: 370px;
 }
 
 .trapezoid__content {
     padding: 10px;
+    display: flex;
+    position: ;
 }
