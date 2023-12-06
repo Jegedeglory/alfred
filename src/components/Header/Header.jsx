@@ -27,6 +27,7 @@ const Header = () => (
           </div>
         </div>
         <div className='divider'>
+          <div className='trapezoid'><div className='trapezoid__content'>Best value</div></div>
         <h2 className='main-phrase'>Growth</h2>
           <h2 className='money-phrase'>$36 + $0.09</h2>
           <p className='AI-phrase'>per AI generation</p>

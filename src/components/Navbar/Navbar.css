@@ -54,12 +54,11 @@ ul {
     top: 0;
     margin-right: 20px;
     list-style-type: none;
-    width: 100%;
+    width: 96%;
 }
 
 
 li {
-    /* margin-left: auto; */
     margin-right: 20px;
     display: inline;
     text-align: center;
@@ -68,7 +67,7 @@ li {
 }
 
 ul li {
-    display: inline-block;
     line-height: 20px;
     margin: 0 5px;
+
 }
