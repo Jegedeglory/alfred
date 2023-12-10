@@ -9,7 +9,7 @@ const Header = () => (
       <Navbar />
       { <div className='container'>
         <div className='header-content text-center flex flex-column'>
-          <h1 className='text-uppercase header-title'>Start free &-pay-as-you-go</h1>
+         <h1 className='text-uppercase header-title'>Start free & <br />pay-as-you-go</h1>
         </div>
         <div className='grid-divider'>
         <div className='divider'>
@@ -27,7 +27,7 @@ const Header = () => (
           </div>
         </div>
         <div className='divider'>
-          <div className='trapezoid'><div className='trapezoid__content'>Best value</div></div>
+          <div className='trapezoid'><p className='best'>Best Value</p></div>
         <h2 className='main-phrase'>Growth</h2>
           <h2 className='money-phrase'>$36 + $0.09</h2>
           <p className='AI-phrase'>per AI generation</p>

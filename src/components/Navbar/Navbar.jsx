@@ -2,13 +2,14 @@ import React, {useState} from 'react'
 import "./Navbar.css";
 import { FaBars, FaTimes } from 'react-icons/fa';
 
+
 const Navbar = () => {
   const {toggleMenu, setToggleMenu} = useState(false);
   return (
     <nav className='navbar'>
         <div className='brand__and__toggler flex'>
           <a href = "index.html" alt = "" className='navbar__brand'>
-            <div className='logo'>alfred</div>
+            <div className='logo'><div className='Arrow-logo'></div>alfred</div>
           </a>
         </div>
         <div className='navbar__align'>

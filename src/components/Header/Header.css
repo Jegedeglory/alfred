@@ -1,4 +1,5 @@
 *{
+    font-family: var(--font-base);
     padding: 0;
     margin: 0;
     text-decoration: none;
@@ -15,13 +16,15 @@
 }
 
 .header-title {
-    height: 100px;
+    height: 200px;
     position: relative;
     align-items: center;
-    margin: 80px;
-    font-size: 84px;
+    justify-content: center;
+    margin: 60px;
+    font-size: 90px;
     float:inline-end;
-    display: inline;
+    display: flex;
+    left: 16%;
 }
 
 .grid-divider {
@@ -53,11 +56,13 @@
 }
 
 .main-phrase {
+    font-size: 38px;
     display: inline-block;
     display: grid;
 }
 
 .money-phrase {
+    font-size: 30px;
     width: 75%;
     display: inline;
 }
@@ -67,13 +72,15 @@
     background-color: #040404;
     color: #fff;
     border: none;
-    padding: 15px 32px;
+    padding: 15px 40px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+    /* display: inline-block; */
+    font-size: 20px;
+    font-weight: 600;
     border-radius: 20px;
-    margin: 6px auto;
+    margin: 8px auto;
+    cursor: pointer;
 }
 
 .second-btn {
@@ -94,6 +101,12 @@ p {
     grid-template-columns: repeat(3, 1fr);
 }
 
+.best {
+    text-align: center;
+    justify-content: center;
+    margin: 5px;
+}
+
 .included {
     font-weight: 800;
     font-size: 20px;
@@ -101,7 +114,7 @@ p {
 
 .trapezoid {
     color: #fff;
-    background: #c80e0e;
+    background: #e76705;
     border-bottom: 50px solid transparent;
     border-left: 50px solid;
     border-right: 50px solid;
@@ -116,6 +129,7 @@ p {
     position: absolute;
     top: 60px;
     right: 370px;
+
 }
 
 .trapezoid__content {
